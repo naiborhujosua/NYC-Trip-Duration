@@ -4,7 +4,7 @@
 This is a comprehensive Exploratory Data Analysis for the [New York City Taxi Trip Duration](https://www.kaggle.com/c/nyc-taxi-trip-duration) competition with Python and Data Visualization libraries such as matplotlib and seaborn. I also use [New York City Taxi with OSRM](https://www.kaggle.com/oscarleo/new-york-city-taxi-with-osrm) to support the primary dataset.
 
 The goal of this playground challenge is to predict the duration of taxi rides in NYC based on features like trip coordinates or pickup date and time. We start the exploratory data analysis by loading the dataset using pandas, checking missing values, doing feature engineering,checking outliers and comparing between univariate and bivariate features,improving the model using ML Algorithms(Decision Tree and Gradient Boosting) as regression model.
-We also implement Haversine Formula using for calculating the duration between two points(longitude and latitude) as follows 
+We also implement Haversine Formula for calculating the duration between two points(longitude and latitude) as follows 
 ![Haversine Formula](https://github.com/naiborhujosua/NYC-Trip-Duration/blob/main/haversineformula.png)
 # File descriptions
 - train.csv - the training set (contains 1458644 trip records)
